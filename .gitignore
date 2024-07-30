@@ -1,0 +1,29 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+.env
+*.log
+
+
+# Archivos de caché
+wp-content/cache/
+
+
+# Archivos de configuración locales
+wp-config.php
+.htaccess
+
+
+# Archivos de respaldo
+*.bak
+*.sql
+
+# Otros
+node_modules/
+vendor/
+/wp-admin/
+/wp-includes/
+
+
+# Ignorar configuraciones de IDE
+.vscode/
